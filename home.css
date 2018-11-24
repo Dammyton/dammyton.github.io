@@ -1,0 +1,99 @@
+body { margin: 0 auto;
+		background-color: orange;
+}
+a.{
+text-decoration: none;
+color: white;
+background-color: orange;
+		}
+#content{overflow: auto;
+}
+#nav, #feature, #footer {margin: 1%;
+						text-decoration: none;
+}
+li { display: inline-block;
+	 padding: 0.5em;
+	 
+}
+#menu{
+	margin: 10px;
+}
+#nav, #footer { background-color: orange; 
+				padding: 0.5em 0;
+}
+
+#nav {   float: center;
+		   font-family:latha;
+			text-align:center;
+			text-decoration: none;
+			font-size: 22px;
+			color: white;
+			
+}
+#footer {    font-family: Helvetica, sans-serif;  
+               font-size: 75%;  
+               text-align:center;  
+}
+body.one{
+			background-color: orange;
+			margin: 10px;
+			padding: 10px;
+		}
+		h4{
+			font-size:30px;
+			border:  1px solid white;
+			border-radius:  5px  ;
+			border-width: 1px 4px 12px 4px;
+			width: 28%;
+			color: black;
+			background-color:blueviolet;
+			text-align: center;
+			margin-left: 100px;
+		}
+		p{
+			font-size: 15px;
+		}
+		label {
+			font-size: 15px;
+		}
+		input {
+			border: 1px solid black;
+			width: 150px;
+			height: 25px;
+		}
+.container {
+  width: 80%;
+  background-color: #ddd;
+  margin:20px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+h1,p{
+	margin:20px;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+.WordPress {width:95%;background-color:purple;}
+
+ul a:link,ul a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+ul a:hover, ul a:active {
+    background-color: red;
+    border-color:blue;
+}
